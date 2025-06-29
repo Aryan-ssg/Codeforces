@@ -1,0 +1,199 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "Main",
+      "projectName": "COdeforces_418c04c"
+    },
+    {
+      "type": "java",
+      "name": "Cards",
+      "request": "launch",
+      "mainClass": "Cards",
+      "projectName": "COdeforces_418c04c"
+    },
+    {
+      "type": "java",
+      "name": "PairDemo",
+      "request": "launch",
+      "mainClass": "PairDemo",
+      "projectName": "COdeforces_418c04c"
+    },
+    {
+      "type": "java",
+      "name": "WordCap",
+      "request": "launch",
+      "mainClass": "WordCap",
+      "projectName": "COdeforces_418c04c"
+    },
+    {
+      "type": "java",
+      "name": "_1791C",
+      "request": "launch",
+      "mainClass": "_1791C",
+      "projectName": "COdeforces_418c04c"
+    },
+    {
+      "type": "java",
+      "name": "_1343B",
+      "request": "launch",
+      "mainClass": "_1343B",
+      "projectName": "COdeforces_418c04c"
+    },
+    {
+      "type": "java",
+      "name": "_2121A",
+      "request": "launch",
+      "mainClass": "_2121A",
+      "projectName": "COdeforces_418c04c"
+    },
+    {
+      "type": "java",
+      "name": "TowerHanoi",
+      "request": "launch",
+      "mainClass": "TowerHanoi",
+      "projectName": "COdeforces_418c04c"
+    },
+    {
+      "type": "java",
+      "name": "Factorial",
+      "request": "launch",
+      "mainClass": "Factorial",
+      "projectName": "COdeforces_418c04c"
+    },
+    {
+      "type": "java",
+      "name": "GrayCode",
+      "request": "launch",
+      "mainClass": "GrayCode",
+      "projectName": "COdeforces_418c04c"
+    },
+    {
+      "type": "java",
+      "name": "_339A",
+      "request": "launch",
+      "mainClass": "_339A",
+      "projectName": "COdeforces_418c04c"
+    },
+    {
+      "type": "java",
+      "name": "C1029_",
+      "request": "launch",
+      "mainClass": "C1029_",
+      "projectName": "COdeforces_418c04c"
+    },
+    {
+      "type": "java",
+      "name": "Palindrome",
+      "request": "launch",
+      "mainClass": "Palindrome",
+      "projectName": "COdeforces_418c04c"
+    },
+    {
+      "type": "java",
+      "name": "CoinPiles",
+      "request": "launch",
+      "mainClass": "CoinPiles",
+      "projectName": "COdeforces_418c04c"
+    },
+    {
+      "type": "java",
+      "name": "_706B",
+      "request": "launch",
+      "mainClass": "_706B",
+      "projectName": "COdeforces_418c04c"
+    },
+    {
+      "type": "java",
+      "name": "_136A",
+      "request": "launch",
+      "mainClass": "_136A",
+      "projectName": "COdeforces_418c04c"
+    },
+    {
+      "type": "java",
+      "name": "TrailingZeroes",
+      "request": "launch",
+      "mainClass": "TrailingZeroes",
+      "projectName": "COdeforces_418c04c"
+    },
+    {
+      "type": "java",
+      "name": "BitStrings",
+      "request": "launch",
+      "mainClass": "BitStrings",
+      "projectName": "COdeforces_418c04c"
+    },
+    {
+      "type": "java",
+      "name": "TwoSets",
+      "request": "launch",
+      "mainClass": "TwoSets",
+      "projectName": "COdeforces_418c04c"
+    },
+    {
+      "type": "java",
+      "name": "TwoNights",
+      "request": "launch",
+      "mainClass": "TwoNights",
+      "projectName": "COdeforces_418c04c"
+    },
+    {
+      "type": "java",
+      "name": "NumSpiral",
+      "request": "launch",
+      "mainClass": "NumSpiral",
+      "projectName": "COdeforces_418c04c"
+    },
+    {
+      "type": "java",
+      "name": "Permutations",
+      "request": "launch",
+      "mainClass": "Permutations",
+      "projectName": "COdeforces_418c04c"
+    },
+    {
+      "type": "java",
+      "name": "IncresArray",
+      "request": "launch",
+      "mainClass": "IncresArray",
+      "projectName": "COdeforces_418c04c"
+    },
+    {
+      "type": "java",
+      "name": "Repetitions",
+      "request": "launch",
+      "mainClass": "Repetitions",
+      "projectName": "COdeforces_418c04c"
+    },
+    {
+      "type": "java",
+      "name": "Missnum",
+      "request": "launch",
+      "mainClass": "Missnum",
+      "projectName": "COdeforces_418c04c"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": false,
+      "cwd": "/home/rahul/Documents/COdeforces",
+      "program": "/home/rahul/Documents/COdeforces/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}
