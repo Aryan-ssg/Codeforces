@@ -5,22 +5,23 @@ import java.io.InputStreamReader;
 import java.math.BigInteger;
 import java.util.*;
 
-public class Main {
+public class A_Collatz_Conjecture {
     public static void main(String[] args) throws NumberFormatException, IOException {
         // Scanner sc = new Scanner(System.in);
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        int n = Integer.parseInt(br.readLine());
+        int tc = Integer.parseInt(br.readLine());
         StringBuilder sb = new StringBuilder();
-        while (n-- > 0) {
+        while (tc-- > 0) {
             String input = br.readLine();
             String[] s = input.split(" ");
-            int a = Integer.parseInt(s[0]);
-            int b = Integer.parseInt(s[1]);
-            int c = Integer.parseInt(s[2]);
-            int d = Integer.parseInt(s[3]);
-            if (a == b && a == c && a == d) {
-                sb.append("YES");
+            int k=Integer.parseInt(s[0]);
+            int x=Integer.parseInt(s[1]);
+
+            for(int i=0;i<k;i++){
+                x=x*2;
             }
+            sb.append(x).append("\n");
+            
 
         }
         System.out.println(sb);

@@ -3,6 +3,69 @@
   "configurations": [
     {
       "type": "java",
+      "name": "A_Be_Positive",
+      "request": "launch",
+      "mainClass": "A_Be_Positive",
+      "projectName": "COdeforces_418c04c"
+    },
+    {
+      "type": "java",
+      "name": "B_Beautiful_String",
+      "request": "launch",
+      "mainClass": "B_Beautiful_String",
+      "projectName": "COdeforces_418c04c"
+    },
+    {
+      "type": "java",
+      "name": "A_Beautiful_Average",
+      "request": "launch",
+      "mainClass": "A_Beautiful_Average",
+      "projectName": "COdeforces_418c04c"
+    },
+    {
+      "type": "java",
+      "name": "A_Incremental_Subarray",
+      "request": "launch",
+      "mainClass": "A_Incremental_Subarray",
+      "projectName": "COdeforces_418c04c"
+    },
+    {
+      "type": "java",
+      "name": "C_Pacer",
+      "request": "launch",
+      "mainClass": "C_Pacer",
+      "projectName": "COdeforces_418c04c"
+    },
+    {
+      "type": "java",
+      "name": "trippitroppi",
+      "request": "launch",
+      "mainClass": "trippitroppi",
+      "projectName": "COdeforces_418c04c"
+    },
+    {
+      "type": "java",
+      "name": "Recursion",
+      "request": "launch",
+      "mainClass": "Recursion",
+      "projectName": "COdeforces_418c04c"
+    },
+    {
+      "type": "java",
+      "name": "A_Sushi_for_Two",
+      "request": "launch",
+      "mainClass": "A_Sushi_for_Two",
+      "projectName": "COdeforces_418c04c"
+    },
+    {
+      "type": "java",
+      "name": "CoinGift",
+      "request": "launch",
+      "mainClass": "CoinGift",
+      "projectName": "COdeforces_418c04c"
+    },
+    {
+      "type": "java",
       "name": "Main",
       "request": "launch",
       "mainClass": "Main",

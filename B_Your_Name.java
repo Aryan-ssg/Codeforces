@@ -5,25 +5,34 @@ import java.io.InputStreamReader;
 import java.math.BigInteger;
 import java.util.*;
 
-public class Main {
+public class B_Your_Name {
     public static void main(String[] args) throws NumberFormatException, IOException {
         // Scanner sc = new Scanner(System.in);
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        int n = Integer.parseInt(br.readLine());
+        int tc = Integer.parseInt(br.readLine());
         StringBuilder sb = new StringBuilder();
-        while (n-- > 0) {
+        while (tc-- > 0) {
+            int n = Integer.parseInt(br.readLine());
             String input = br.readLine();
             String[] s = input.split(" ");
-            int a = Integer.parseInt(s[0]);
-            int b = Integer.parseInt(s[1]);
-            int c = Integer.parseInt(s[2]);
-            int d = Integer.parseInt(s[3]);
-            if (a == b && a == c && a == d) {
-                sb.append("YES");
-            }
+            String a=s[0];
+            String b=s[1];
+            char[] a1=a.toCharArray();
+            char[] b1=b.toCharArray();
+
+            Arrays.sort(a1);
+            Arrays.sort(b1);
+
+            a=new String(a1);
+            b=new String(b1);
+
+            if(a.compareTo(b)==0){
+                sb.append("YES\n");
+            }else{sb.append("NO\n");}
+            
 
         }
         System.out.println(sb);
-
     }
+
 }

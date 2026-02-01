@@ -22,7 +22,7 @@ public class BetweenTheOffices {
         System.out.println("yes");
        }else{System.out.println("no");}
 
-
+       
        
 
 
