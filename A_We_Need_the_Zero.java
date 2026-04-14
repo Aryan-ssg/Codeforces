@@ -21,22 +21,39 @@ public class A_We_Need_the_Zero {
             for (int i = 0; i < n; i++) {
                 arr[i] = Integer.parseInt(s[i]);
             }
-            int[] temp = new int[n];
-            int ans = -1;
-            for (int i = 0; i < 256; i++) {
-                for (int j = 0; j < n; j++) {
-                    temp[j] = arr[j] ^ i;
-                }
-                int xor = 0;
-                for (int j = 0; j < n; j++) {
-                    xor = xor ^ temp[j];
-                }
-                if (xor == 0) {
-                    ans = i;
-                    break;
-                }
+            int ans=0;
 
+            int xor=0;
+            for(int i=0;i<n;i++){
+                xor=xor^arr[i];
             }
+            if(n%2==0 && xor==0){
+                ans=0;
+
+            }else if(n%2==0 && xor!=0){
+                ans=-1;
+            }else{
+                ans=xor;
+            }
+
+            // int[] temp = new int[n];
+            // int ans = -1;
+            // for (int i = 0; i < 256; i++) {
+            //     for (int j = 0; j < n; j++) {
+            //         temp[j] = arr[j] ^ i;
+            //     }
+            //     int xor = 0;
+            //     for (int j = 0; j < n; j++) {
+            //         xor = xor ^ temp[j];
+            //     }
+            //     if (xor == 0) {
+            //         ans = i;
+            //         break;
+            //     }
+
+            // }
+
+
             sb.append(ans + "\n");
 
         }
