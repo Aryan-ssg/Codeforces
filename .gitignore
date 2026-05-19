@@ -1,0 +1,10 @@
+*.class
+*.prob
+
+build/
+out/
+.cph/
+.idea/
+.vscode/
+.editor/
+.gitattributes
